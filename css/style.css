@@ -1,0 +1,546 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: powderblue;
+}
+.container {position: relative;margin: 35px 164px;display: flex;justify-content: space-between;align-items: center;width: 80%;height: 970px;/* border-radius: 10px; */box-shadow: -3px -3px 14px 9px rgb(92 91 91 / 24%);}
+/* Left Side*/
+.leftContent{
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  border-right:1px solid #777 ;
+  background-color: #0e4040;
+}
+.imgbx {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #1c1c1a;
+  margin: 10px 15%;
+}
+.imgbx img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.tectContent{
+  position: relative;
+  width: 200px;
+  margin: auto;
+  border-bottom: 2px solid #05162c;
+  margin-bottom: -6px;
+}
+.tectContent h3{
+  font-size: 1.4em;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: aliceblue;
+}
+
+.tectContent p{
+  width: 200px;
+  margin: auto;
+  font-size: 1em;
+  color: #71a8e7;
+  text-align: center;
+}
+ i.fa-location-dot{
+  font-size: 20px;
+  color: #02c3f4;
+  margin-right: 5px;
+  position: relative;
+}
+i.fa-square-phone{
+  font-size: 20px;
+  color: #02aff4;
+  margin-right: 5px;
+  position: relative;
+}
+i.fa-envelope{
+  font-size: 20px;
+  color: #02aff4;
+  margin-right: 5px;
+  position: relative;
+}
+i.fa-github{
+  position: fixed;
+  font-size: 20px;
+  color: #02aff4;
+  margin-right: 30px;
+  position: relative;
+}
+ .contactInfo{
+  width: 100%;
+  height: 200px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 30px;
+  position: relative;
+ }
+ .contactInfo h2{
+  font-size: 1.4em;
+  font-weight: 500;
+  color: #b1b3b1;
+ }
+ .contact{
+  width: 100%;
+color: #969393;
+position: absolute;
+ }
+ .contact p{
+  font-size: 16px;
+ }
+.exp{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+.exp h2{
+  font-size: 1.4em;
+  font-weight: 500;
+  color: #bafcba;
+}
+p.year{
+  color: #245afc;
+  margin-top: 10px;
+  font-size: 15px;
+}
+p.edu{
+  color: #eff5ef;
+  font-weight: 500;
+  font-size: 15px;
+  margin: 2px 4px;
+}
+p.insti{
+  color: #c6deff;
+}
+.lang h3{
+  font-size: 23px;
+  font-weight: 600;
+  color: #dedada;
+  margin-left: 28px;
+}
+.lang ul{
+  list-style: none;
+}
+.lang ul li{
+  width: 250px;
+  margin: auto;
+}
+.lang ul li span.text{
+  font-size: 20px;
+  color: #e0e0e0d6;
+  font-weight: 400;
+  margin-left: 0px;
+}
+.lang .percent{
+  position: relative;
+  width: 100%;
+  margin-top: 5px;
+  height: 13px;
+  display: block;
+  /* border-radius: 7px; */
+  background: #022e50;
+}
+.lang .percent div{position: absolute;height: 100%;background-color: #02aff4;/* border-radius: 7px; */}
+/*Right Side */
+.righContent {
+  width: 710px;
+  margin-left: 300px;
+  background-color: #ffffff;
+  height: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+  position: absolute;
+}
+
+.top {
+width: 100%;
+height: 200px;
+/* background: aquamarine; */
+position: relative;
+top: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: start;
+}
+
+.top h2 {
+font-size: 25px;
+font-weight: 600;
+font-family: math;
+margin-left: 15px;
+color: #004c4c;
+}
+
+.top p {
+font-size: 16px;
+line-height: 25px;
+margin-left: 18px;
+color: black;
+opacity: 0.8;
+}
+
+.exper {
+position: relative;
+top: 30px;
+}
+.exper h2 {
+position: relative;
+font-size: 26px;
+font-weight: 600;
+font-family: monospace;
+margin-left: 16px;
+color: #002e56;
+}
+
+.experBx {
+position: relative;
+display: flex;
+width: 100%;
+}
+
+.experBx .xperContent p {
+font-size: 15px;}
+
+.experBx p {
+  font-size: 15px;
+  color: black;
+  opacity: 0.8;
+}
+
+.xperContent {
+width: 100px;
+height: 50px;
+margin-top: 10px;
+margin-left: 15px;
+}
+
+
+.experBx2 {
+width: 300px;
+display: flex;
+flex-direction: column;
+margin-left: 40px;
+  margin-top: 5px;
+}
+
+.experBx2 h4 {
+font-size: 15px;
+text-transform: uppercase;
+font-weight: 500;
+font-family: system-ui;
+color: #0e4040;
+}
+
+.experBx2 p {
+color: black;
+opacity: 0.6;
+font-size: 16px;}
+.professon {
+  position: relative;
+  width: 100%;
+  /* background: black; */
+  color: #0e4040;
+  top: 50px;
+  left: 20px;
+}
+
+.professon h1 {
+  font-size: 25px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: math;
+  margin-left: 30px;
+}
+.professon ul{
+  list-style: none;
+}
+.professon ul li{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  line-height: 40px;
+}
+.professon .skillPercent{
+position: relative;
+width: 100%;
+margin-top: 5px;
+height: 13px;
+display: block;
+/* border-radius: 7px; */
+background: #223441;
+left: 25px;
+}
+.professon .skillPercent div{
+position: absolute;
+height: 100%;
+background-color: #00a5fa;
+/* border-radius: 7px; */
+}
+span.skillText {
+  width: 130px;
+  margin-left: 0px;
+  text-transform: uppercase;
+  color: #087617;
+  font-weight: 600;
+}
+
+.skills {
+  width: 95%;
+  /* background: aqua; */
+}
+.interest {
+  position: relative;
+  top: 50px;
+  width: 100%;
+  margin-left: 30px;
+}
+
+.interest h1 {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'Font Awesome 6 Brands';
+  margin-top: 20px;
+  letter-spacing: 3px;
+  color: #223441;
+}
+
+ .interest ul {
+  list-style: none;
+  display: flex;
+}
+
+.interest ul li {
+  margin: 10px 5px;
+  color: #00a8dd;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+}
+ .interest ul li .fa-book-quran{
+  margin: 6px;
+  color: #e223a0;
+  font-size: 18px;
+}
+.interest ul li .fa-hackerrank{
+  margin: 6px;
+  color: #e223a0;
+  font-size: 18px;
+}
+.interest ul li .fa-book-open-reader{
+  margin: 6px;
+  color: #e223a0;
+  font-size: 18px;
+}
+.interest ul li .fa-tree{
+  margin: 6px;
+  color: #e223a0;
+  font-size: 18px;
+}
+
+/*Mobile view */
+ @media (max-width:350px){
+  .container {
+    position: absolute;
+    width: 330px;
+    height: 110pc;
+    box-shadow: -3px -3px 14px 9px rgb(92 91 91 / 24%);
+    top: -20px;
+    left: -160px;
+}
+.leftContent {
+  width: 100%;
+  height: 745px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.righContent {
+  width: 100%;
+  position: absolute;
+  margin-left: 0px;
+  top: 746px;
+  height: 1040px;
+}
+  .imgbx {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #1c1c1a;
+    margin: 12px 30%;
+}
+
+.tectContent {
+  position: relative;
+  width: 50%;
+  margin-bottom: 0px;
+  margin-left: 82px;
+}
+.tectContent h3 {
+  font-size: 18px;
+  width: 100%;
+}
+.tectContent p {
+  width: 100%;
+  margin: auto;
+  font-size: 1em;
+  color: #71a8e7;
+  text-align: center;
+}
+.contactInfo {
+  width: 100%;
+  height: 150px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 12px;
+  position: relative;
+}
+.contactInfo h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #b1b3b1;
+}
+.contact {
+  width: 100%;
+  color: #fff9f9;
+  position: relative;
+}
+.contact p {
+  font-size: 15px;
+}
+.exp h2 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #bafcba;
+  margin-top: 8px;
+}
+p.year {
+  color: #245afc;
+  margin-top: 6px;
+  font-size: 15px;
+}
+p.edu {
+  color: #eff5ef;
+  font-weight: 500;
+  font-size: 13px;
+  margin: 5px 0px;
+}
+p.insti {
+  color: #c6deff;
+  font-size: 15px;
+}
+.lang h3 {
+  font-size: 18px;
+}
+.lang ul li {
+  width: 95%;
+}
+.lang ul li span.text {
+  font-size: 16px;
+}
+
+.lang .percent {
+  height: 5px;
+}
+.lang {
+  width: 250px;
+  margin: auto;
+}
+.top {
+  width: 100%;
+  position: relative;
+  top: 50px;
+}
+.exper {
+  position: relative;
+  width: 100%;
+  top: 100px;
+}
+.exper h2 {
+  font-size: 20px;
+}
+.experBx {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+.xperContent {
+  width: 110px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.experBx2 {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.professon {
+  position: relative;
+  width: 100%;
+  color: #0e4040;
+  top: 120px;
+  left: 15px;
+}
+.professon h1 {
+  font-size: 20px;
+  margin-left: 6px;
+}
+.skills {
+  width: 100%;
+}
+.professon ul li {
+  width: 85%;
+  line-height: 20px;
+}
+span.skillText {
+  width: 100px;
+  margin-left: 0px;
+  font-size: 8px;
+}
+.professon .skillPercent {
+  width: 100%;
+  margin-top: 10px;
+  height: 8px;
+  left: 10px;
+}
+.interest {
+  position: relative;
+  top: 115px;
+  width: 100%;
+  margin-left: 10px;
+}
+.interest h1 {
+  font-size: 10px;
+  margin-top: 10px;
+}
+.interest ul {
+  list-style: none;
+  display: block;
+}
+.interest ul li {
+  margin: 0px 5px;
+  color: #7c7d7a;
+  font-size: 15px;
+}
+ }
